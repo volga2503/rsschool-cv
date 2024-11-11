@@ -1,2 +1,3 @@
 # rsschool-cv 
-[CV](https://your-github-account.github.io/rsschool-cv/cv)
+https://volga2503.github.io/rsschool-cv/cv
+https://volga2503.github.io/rsschool-cv
