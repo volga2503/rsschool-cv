@@ -1,0 +1,143 @@
+header {
+  background-color: #86a6c0;
+  text-align: center;
+  padding: 4px;
+}
+
+nav ul li{
+  
+  display: inline-block;
+  color: #000000;
+  text-align: match-parent;
+  padding: -4px 7px;
+  text-decoration: none;
+}
+
+a:link {
+  color: #4738a1;
+    text-decoration: none;
+}
+a:visited {
+  color: #4738a1;
+  text-decoration: none;
+}
+a:hover {
+  color: #4738a1;
+  text-decoration: none;
+}
+a:active {
+  color: #4738a1;
+  text-decoration: none;
+}
+body {
+  background-color: #b9c2c9;
+  text-decoration: none;
+    text-align: center
+}
+ul {
+  list-style-type: square;
+}
+
+h1 {
+    font-family: Garamond;
+    color:#0f1163
+}
+
+.avatar {
+    position: relative;
+    width:  -19%;
+    height: 22vh;
+    display: flex;
+    justify-content: right;
+
+}
+
+.custom-image {
+    border-radius: 99px
+}
+
+.text-block-summary {
+    margin: auto;
+    width: 285px;
+    color: #313147;
+        text-align: left;
+    font-family: Georgia;
+    font-size: small;
+    position: absolute;
+        top: 183px;
+        left: 7px;
+}
+
+.contact-block {
+    display: inline-block;
+        margin: auto;
+    width: 36px;
+    color: #313147;
+        text-align: left;
+    font-family: Georgia;
+    font-size: small;
+    position: absolute;
+        top: 328px;
+        left: 297px;
+}
+
+
+.text-block-education {
+     margin: auto;
+    width: 323px;
+    color: #313147;
+        text-align: left;
+    font-family: Georgia;
+    font-size: small;
+    position: absolute;
+        top: 338px;
+        left: 7px;
+    
+}
+
+
+.text-block-experience {
+    margin: auto;
+    width: 505px;
+    color: #313147;
+        text-align: left;
+    font-family: Georgia;
+    font-size: small;
+    position: absolute;
+        top: 456px;
+        left: 5px;
+}
+
+.text-block-skills {
+     margin: auto;
+    width: 81px;
+    color: #313147;
+        text-align: right;
+    font-family: Georgia;
+    font-size: small;
+    position: absolute;
+        top: 1001px;
+        left: 351px;
+}
+
+.text-block-languages{
+    
+  margin: auto;
+    width: 323px;
+    color: #313147;
+        text-align: left;
+    font-family: Georgia;
+    font-size: small;
+    position: absolute;
+        top: 1003px;
+        left: 5px;
+} 
+
+footer {
+    background-color: #86a6c0;
+  text-align: center;
+  padding: -16px;
+    position: absolute;
+    top: 1143px
+        
+}
