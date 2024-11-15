@@ -2,8 +2,10 @@
 <html lang="en">
   <meta charset="UTF-8">
   <title>CV Volha Sushytskaya</title>
+ <body>
+  
   <header>
- <nav> <!-- Menu -->
+  <nav> <!-- Menu -->
     <ul>
       <li><a href="#about">About Me</a></li>
       <li><a href="#education">Education</a></li>
@@ -15,23 +17,74 @@
 </header>
 
 <main>
-  <h2 id="about">Summary</h2>
-  <p>Nice to meet you! My name is Volha Sushytsaya. I'm a proactive person with positive attitude currently trying to build my development carrier. Currently baseed in Warsaw, PL. Lets's stay in touch: </p>
-<a href="https://www.linkedin.com/in/volha-sushytskaya-047ab9174/">Linkedin</a>
-<a href="https://github.com/volga2503">GitHub</a>
-</main>
-<body>
   <h1>CV</h1>
   <h1>Volha Sushytskaya. Junior Front-End Developer</h1>
-  <p>Put text</p>
+  <h2 id="about">Summary</h2>
+  <p>Enthusiastic and detail-oriented Junior Front-End Developer. Passionate about crafting clean, maintainable code and continuously learning modern frameworks. Eager to contribute creativity and problem-solving skills to a dynamic development team. Based in <span>&#128205;</span> Warsaw, Poland</p> 
+  
+  <p>Lets's stay in touch: </p>
+  
+  <ul>  
+  <li><a href="https://www.linkedin.com/in/volha-sushytskaya-047ab9174/">Linkedin</a></li>
+  <li><a href="https://github.com/volga2503">GitHub</a></li>
+  <li><a href="mailto:sushitskaya2503@gmail.com">Email</a></li>
+ </ul>
+
+</main>
+
   <h2 id="education">Education</h2>
-  <p>Put Text </p>
+  <p>Belarus State Economic University: Accounting 2012-2016 (<span>&#128205;</span>Minsk, BY)</p>
+  <p><a href="https://rs.school/courses/javascript">RS School: JavaScript / Front-End Course</a></p>
   <h2 id="skills">Skills</h2>
-  <p>Put Text </p>
-  <h2 id="education">Experience</h2>
-  <p>Put Text </p>
+  <ul>  
+  <li>Phyton</li>
+  <li>C#</li>
+  <li>HTML</li>
+  <li>CSS</li>
+ </ul>
+  <h2 id="experience">Experience</h2>
+  <ul>
+  <li><p>Insurance Specialist|Global Insurance Services, Inc|<span>&#128205;</span>Boston, USA|since Dec, 2018</p> 
+  <p>Successfully contributed to the insurance industry for 5 years, working within a dynamic multinational team to deliver tailored solutions to clients across diverse markets. </p></li>
+  <li>RS School: Java Script/Front-End Course</li>
+  </ul>
+  <p>Code example:</p>
+  
+  <pre>
+  <code>
+        private void ToggleEditButton_Click(object sender, EventArgs e)
+        {
+            isEditing = !isEditing;
+            dataGridView1.ReadOnly = !isEditing;
+            ToggleEditButton.Text = isEditing ? "Disable Editing" : "Enable Editing";
+
+
+            if (isEditing)
+            {
+                foreach (DataGridViewRow row in dataGridView1.Rows)
+                {
+                    row.Cells[0].ReadOnly = true;
+                   
+  </code>
+   </pre>
+<p><a href="https://volga2503.github.io/rsschool-cv/cv">Most Recent Project</a></p>
+
   <h2 id="languages">Languages</h2>
-  <p>Put Text </p>
+  <ul>  
+  <li>Russian - Native</li>
+  <li>Belarussian - Native</li>
+  <li>English - C1</li>
+  <li>Polish - A2</li>
+ </ul>
+ 
+ <footer>
+ <p>Author: Volha Sushitskaya</p>
+        <p>Email: sushitskaya2503@gmail.com</p>
+      <time datetime="2024-11-15">November, 2024</time>
+      <a href="https://github.com/volga2503">GitHub</a>
+      <a href="https://rs.school/courses/javascript">JavaScript / Front-end Course</a>
+      <img src="rs-school-logo.svg" width="80" height="80" alt="rs_school_js">
+ </footer>
 </body>
 </html>
 
