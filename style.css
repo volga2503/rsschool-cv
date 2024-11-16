@@ -1,143 +1,158 @@
+/*body style*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    text-align: center;
+}
+
+/*header styles*/
 header {
-  background-color: #86a6c0;
-  text-align: center;
-  padding: 4px;
+    background-color: #aec6cf;
+    color: #333;
+    padding: 10px 0;
+
 }
 
-nav ul li{
-  
-  display: inline-block;
-  color: #000000;
-  text-align: match-parent;
-  padding: -4px 7px;
-  text-decoration: none;
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
 }
 
+/*navigation menu style*/
+
+.nav-menu {
+    list-style: none;
+    margin: 10px auto 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 5px 10 px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color o.3s ease;
+}
+
+.nav-menu a:hover{
+    background-color: #f9d5e5;
+    color: #000;
+}
+
+
+/*main content style*/
+
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.block {
+    width: 80%;
+    max-width:600px;
+    background-color: #f9d5e5;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.block h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.block ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.block ul li {
+    margin-bottom: 5px;
+}
+
+.summary-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-list {
+    list-style: none;
+    margin: 10px auto 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.contact-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 5px 10 px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color o.3s ease;
+}
+
+.contact-list a:hover{
+    background-color: #aec6cf;
+    color: #000;
+}
+
+ul {
+    text-align: center;
+    margin: 10px auto;
+    padding: 0;
+    list-style: disc;      
+}
+
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
 a:link {
-  color: #4738a1;
+  color: #55516e;
     text-decoration: none;
 }
 a:visited {
-  color: #4738a1;
+  color: #55516e;
   text-decoration: none;
 }
 a:hover {
-  color: #4738a1;
+  color: #55516e;
   text-decoration: none;
 }
 a:active {
-  color: #4738a1;
+  color: #55516e;
   text-decoration: none;
-}
-body {
-  background-color: #b9c2c9;
-  text-decoration: none;
-    text-align: center
-}
-ul {
-  list-style-type: square;
+/*footer style*/
 }
 
-h1 {
-    font-family: Garamond;
-    color:#0f1163
-}
-
-.avatar {
-    position: relative;
-    width:  -19%;
-    height: 22vh;
-    display: flex;
-    justify-content: right;
-
-}
-
-.custom-image {
-    border-radius: 99px
-}
-
-.text-block-summary {
-    margin: auto;
-    width: 285px;
-    color: #313147;
-        text-align: left;
-    font-family: Georgia;
-    font-size: small;
-    position: absolute;
-        top: 183px;
-        left: 7px;
-}
-
-.contact-block {
-    display: inline-block;
-        margin: auto;
-    width: 36px;
-    color: #313147;
-        text-align: left;
-    font-family: Georgia;
-    font-size: small;
-    position: absolute;
-        top: 328px;
-        left: 297px;
-}
-
-
-.text-block-education {
-     margin: auto;
-    width: 323px;
-    color: #313147;
-        text-align: left;
-    font-family: Georgia;
-    font-size: small;
-    position: absolute;
-        top: 338px;
-        left: 7px;
-    
-}
-
-
-.text-block-experience {
-    margin: auto;
-    width: 505px;
-    color: #313147;
-        text-align: left;
-    font-family: Georgia;
-    font-size: small;
-    position: absolute;
-        top: 456px;
-        left: 5px;
-}
-
-.text-block-skills {
-     margin: auto;
-    width: 81px;
-    color: #313147;
-        text-align: right;
-    font-family: Georgia;
-    font-size: small;
-    position: absolute;
-        top: 1001px;
-        left: 351px;
-}
-
-.text-block-languages{
-    
-  margin: auto;
-    width: 323px;
-    color: #313147;
-        text-align: left;
-    font-family: Georgia;
-    font-size: small;
-    position: absolute;
-        top: 1003px;
-        left: 5px;
-} 
-
-footer {
-    background-color: #86a6c0;
-  text-align: center;
-  padding: -16px;
-    position: absolute;
-    top: 1143px
-        
-}
+footer{
+    background-color: #aec6cf;
+    color: #333;
+    padding: 10px 0;
+    margin-top: 20px;
+    }
